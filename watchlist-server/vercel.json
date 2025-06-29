@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "/api/getAiAnalysis.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/getAiAnalysis",
+      "destination": "/api/getAiAnalysis.js"
+    }
+  ]
+}
